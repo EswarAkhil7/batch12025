@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn - Online Learning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>EduLearn - Learn from Experts</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="container">
+        <h2>Welcome to EduLearn</h2>
+        <p>Join our platform to access high-quality courses and interactive learning.</p>
+    </section>
+    <section id="courses" class="container">
+        <h2>Popular Courses</h2>
+        <div class="course-card">
+            <h3>Web Development</h3>
+            <p>Learn HTML, CSS, and JavaScript from scratch.</p>
+            <button onclick="enroll('Web Development')">Enroll Now</button>
+            <a href="https://www.flipkart.com/fastrack-fs1-pro-world-s-first-1-96-super-amoled-highest-resolution-bt-calling-smartwatch/p/itmc42d5fa51a930?pid=SMWGZ835PYX4HJGR&lid=LSTSMWGZ835PYX4HJGRCFZKL9&marketplace=FLIPKART&q=smart%20watches&sattr[]=color&sattr[]=display_size&st=colo"></a>
+        </div>
+        <div class="course-card">
+            <h3>Python Programming</h3>
+            <p>Master Python for data science and AI.</p>
+            <button onclick="enroll('Python Programming')">Enroll Now</button>
+        </div>
+    </section>
+    <section id="login" class="container">
+        <h2>Login / Register</h2>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <p>Email: support@edulearn.com</p>
+        <p>Phone: +123 456 7890</p>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2025 EduLearn. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
